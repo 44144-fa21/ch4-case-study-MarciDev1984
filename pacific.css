@@ -1,29 +1,94 @@
-body { background-color: #FFFFFF;
-      color: #666666;
-	  font-family: Verdana, Arial, sans-serif;
+body {
+  background-color: #3399CC;
+  background-image: linear-gradient(to bottom, #3399CC, #C2E0F0, #3399CC);
+  color: #666666;
+  font-family: Verdana, Arial, sans-serif;
 }
-header { background-color: #000033;
-         color: #FFFFFF;
-		 font-family: Georgia, serif; 
+
+header {
+  background-color: #000033;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
 }
-h1 { line-height: 200%; }
-nav { font-weight: bold;
-      background-color: #90C7E3; 
+
+h1 {
+  line-height: 200%;
+  background-image: url(sunset.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-left: 2em;
+  margin-bottom: 0;
+  height: 72px;
 }
-h2 { color: #3399CC;
-     font-family: Georgia, serif;
+
+nav {
+  font-weight: bold;
+  background-color: #90C7E3;
+  padding: .5em .5em .5em 2em;
 }
-dt { color: #000033; 
-   font-weight: bold; 
+
+h2 {
+  color: #3399CC;
+  font-family: Georgia, serif;
 }
-.resort { color: #000033;
-          font-size: 1.2em;
+
+dt {
+  color: #000033;
+  font-weight: bold;
 }
-footer { font-size: .70em;
-         font-style: italic;
-		 text-align: center; 
+
+.resort {
+  color: #000033;
+  font-size: 1.2em;
 }
-#wrapper { width: 80%;
-          margin-left: auto;
-		  margin-right: auto;
+
+footer {
+  font-size: .70em;
+  font-style: italic;
+  text-align: center;
+  padding: 1em;
+}
+
+#wrapper {
+  background-color: #FFFFFF;
+  width: 80%;
+  min-width: 700px;
+  max-width: 1024px;
+  box-shadow: 5px 5px 5px #000033;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  color: #000033;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#homehero {
+  height: 300px;
+  background-image: url(coast.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#yurthero {
+  height: 300px;
+  background-image: url(coast.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#trailhero {
+  height: 300px;
+  background-image: url(coast.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+nav a {
+  text-decoration: none;
 }
